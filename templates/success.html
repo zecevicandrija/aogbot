@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verifikacija Uspešna</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="success-page"> <div class="container">
+        <h1>Verifikacija Uspešna! ✅</h1>
+        <p>Hvala, <strong>{{ user_tag }}</strong>!</p>
+        <p>Uspešno ste autorizovani i odgovarajuća rola vam je dodeljena na Discord serveru.</p>
+        <p>Možete bezbedno zatvoriti ovu stranicu.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+Flask
+requests
+python-dotenv
+gunicorn  # Važno za pokretanje na Renderu!
+tzdata    # Za podršku vremenskim zonama (ako koristite zoneinfo)
